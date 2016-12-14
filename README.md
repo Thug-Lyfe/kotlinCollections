@@ -15,6 +15,14 @@ Vi har tilføjet 2 counters, en "career high" og en "seasonal high".
 "Seasonal high" viser de højest nået værdier inden for de sidste 100 målinger der er lavet.
 
 ### Mutable & Immutable collections
+Der er adskellelige collections man kan bruge som:
+- MutableList
+- MutableCollection
+- List
+- Collection
+- Map
+- [m.m](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/)
+
 En mutable collection kan blive ændret.
 
 En Immutable collection kan IKKE blive ændret.
@@ -28,17 +36,22 @@ for (index in sensorEvent.values.indices){
 }
 ```
 
+
+Som en ekstra tilføjelse, har vi et eksempel på forskellen mellem java måden og kotlin måden at skrive den samme kode på.
+
+Kotlin:
 ```kotlin
 if(high.count() !in 0..100) {
         high.removeAt(0);
 }
 ```
-er det samme som: 
+Java: 
 ```java
 if(high.count() >= 0 && high.count() <= 100) {
         high.removeAt(0);
 }
 ```
+
 `.count()` giver antal af elements i en collection
 
 `.sum()` giver summen af alle elements
