@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity(),SensorEventListener{
                 |X: ${sensorEvent.values[0]}
                 |Y: ${sensorEvent.values[1]}
                 |Z: ${sensorEvent.values[2]}
+
                 """.trimMargin()
 
         for (index in sensorEvent.values.indices){
@@ -66,6 +67,7 @@ class MainActivity : AppCompatActivity(),SensorEventListener{
                 |X: ${max[0]}
                 |Y: ${max[1]}
                 |Z: ${max[2]}
+
                 """.trimMargin()
 
 
@@ -74,6 +76,7 @@ class MainActivity : AppCompatActivity(),SensorEventListener{
         totText.text = """
         |Tot: ${tot.sum()}
         |Count: ${tot.count()}
+
         """.trimMargin()
 
         high.add(tot.last())
@@ -82,6 +85,8 @@ class MainActivity : AppCompatActivity(),SensorEventListener{
         }
         highText.text = """
         |Tot: ${high.sum()}
+        |Count: ${high.count()}
+
         """.trimMargin()
     }
 

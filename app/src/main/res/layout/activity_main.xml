@@ -19,7 +19,8 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="X: Y: Z:" />
+        android:text="X: Y: Z:"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="X: Y: Z:" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,6 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="tot: count:" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
