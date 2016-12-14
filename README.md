@@ -21,7 +21,7 @@ Der er adskellelige collections man kan bruge som:
 - List
 - Collection
 - Map
-- [m.m](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/)
+- [m.m](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/) (Hvis du gerne vil have flere eksempler)
 
 En mutable collection kan blive ændret.
 
