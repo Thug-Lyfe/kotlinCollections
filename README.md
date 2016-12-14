@@ -34,14 +34,14 @@ if(high.count() >= 0 && high.count() <= 100) {
         high.removeAt(0);
 }
 ```
-.count() giver antal af elements i en collection
+`.count()` giver antal af elements i en collection
 
-.sum() giver summen af alle elements
+`.sum()` giver summen af alle elements
 
-.any() returns true, hvis der bare er et element
+`.any()` returns true, hvis der bare er et element
 
-.any(fun) returns true, hvis der er bare et element i collectionen som giver true
+`.any(fun)` returns true, hvis der er bare et element i collectionen som giver true
 
-.all(fun) returns true, hvis alle er true
+`.all(fun)` returns true, hvis alle er true
 
-.last() returns last element i en colletion
+`.last()` returns last element i en colletion
