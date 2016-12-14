@@ -14,6 +14,11 @@ Vi har tilføjet 2 counters, en "career high" og en "seasonal high".
 
 "Seasonal high" viser de højest nået værdier inden for de sidste 100 målinger der er lavet.
 
+### Mutable & Immutable collections
+En mutable collection kan blive ændret.
+
+En Immutable collection kan IKKE blive ændret.
+
 ## Eksempler i praksis
 ```kotlin
 for (index in sensorEvent.values.indices){
