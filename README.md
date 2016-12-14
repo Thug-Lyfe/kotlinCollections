@@ -10,7 +10,7 @@ Denne gruppe består af følgende deltagere:
 Dette lille program er en viderebyggelse på vores tidligere arbejde med [gyroskop og accelerometer.](https://github.com/Thug-Lyfe/kotlinArtikel)
 Vi har tilføjet 2 counters, en "career high" og en "seasonal high".
 
-"Career high" samler alle værdier den får fra accelerometerets 3 akser.
+"Career high" samler alle værdier den får fra accelerometerets 3 akser og tilføjer de nye efter hver måling.
 
 "Seasonal high" viser de højest nået værdier inden for de sidste 100 målinger der er lavet.
 
