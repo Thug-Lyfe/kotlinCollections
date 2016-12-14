@@ -15,7 +15,7 @@ Vi har tilføjet 2 counters, en "career high" og en "seasonal high".
 "Seasonal high" viser de højest nået værdier inden for de sidste 100 målinger der er lavet.
 
 ## Eksempler i praksis
-```
+```kotlin
 for (index in sensorEvent.values.indices){
         if(sensorEvent.values[index]>max[index]){
               max[index]=sensorEvent.values[index]
@@ -23,13 +23,13 @@ for (index in sensorEvent.values.indices){
 }
 ```
 
-```
+```kotlin
 if(high.count() !in 0..100) {
         high.removeAt(0);
 }
 ```
 er det samme som: 
-```
+```java
 if(high.count() >= 0 && high.count() <= 100) {
         high.removeAt(0);
 }
